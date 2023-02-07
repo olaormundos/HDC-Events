@@ -1,0 +1,258 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+h1, a{
+    font-size: 16px;
+    color: rgb(130, 87, 230);
+    text-decoration: none;
+}
+.f {
+    position: absolute;
+    height: 14%;
+    width: 30%;
+    color: #155724;
+}
+.w {
+        width: 80%;
+        height: calc(100% - 38px);
+        border-radius: 3px;
+        background-color: #d4edda;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 4px solid green;
+}
+/*************** Section Header **************/
+#navbar img{
+    width: 50px;
+}
+.navbar-nav{
+    display: contents;
+}
+.navbar-nav li{
+    margin: 0 10px;
+}
+.navbar-nav li a{
+    color: #ffffff;
+}
+.navbar-nav li a:hover{
+    color: rgb(130, 87, 230);
+}
+.header{
+    background: rgb(18, 18, 20);
+}
+/*************** End Section Header **************/
+/*************** Section Banner **************/
+.banner-home{
+    background-image: url(/img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    border-bottom: 2px solid #8257e6;
+}
+.banner-home h1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 80px 0;
+    font-size: -webkit-xxx-large;
+}
+/*************** And Section Banner **************/
+/*************** Section Events **************/
+#search-container{
+    margin-bottom: 5px;
+}
+#search-container input{
+    width: 49%;
+}
+.eventos{
+    margin-top: 50px;
+}
+.eventos h1{
+    color: rgb(130, 87, 230);
+    margin-bottom: 18px;
+}
+.eventos h2{
+    margin-bottom: 25px;
+    font-size: 23px;
+}
+/*************** Card Events **************/
+.card-evento{
+    background: rgb(32, 32, 36);
+    border-radius: 15px;
+    text-align: center;
+    color: #ffffff;
+    height: 100%;
+    -webkit-box-shadow: 0px 10px 18px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 18px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 18px -4px rgba(0,0,0,0.75);
+}
+.card-evento img{
+    border-radius: 15px 15px 0px 0px;
+    height: inherit;
+    width: auto;
+}
+.card-evento h1{
+    color: rgb(130, 87, 230);
+}
+.card-body .card-footer button{
+    width: -webkit-fill-available;
+    padding: 5px 0;
+    color: rgb(255 255 255);
+    background: rgb(130, 87, 230);
+    border: none;
+}
+.card-evento .card-date{
+    font-size: 10px;
+}
+.card-evento .card-participants{
+    font-size: 13px;
+}
+.colunaeventos{
+    margin-top: 20px;
+}
+/*************** End Card Events **************/
+#event-creat-container{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+#event-creat-container h1{
+    text-align: center;
+    font-size: 34px;
+}
+#event-creat-container .botao-form{
+    width: -webkit-fill-available;
+    padding: 5px 0;
+    color: rgb(255 255 255);
+    background: rgb(130, 87, 230);
+    border: none;
+    margin-top: 25px;
+}
+#event-creat-container label{
+    padding-top: 25px;
+}
+/*************** Page Event **************/
+.event{
+    padding: 90px 0;
+}
+.event .image-container, img{
+    border-radius: 15px;
+}
+#description-container{
+    margin-top: 58px;
+}
+#description-container h3{
+    font-size: x-large;
+}
+#description-container h3{
+    color: rgb(130, 87, 230);
+}
+#info-container{
+    text-align: center;
+}
+ion-icon {
+    color: rgb(130, 87, 230);
+    font-size: larger;
+}
+.event button{
+    padding: 8px 10px;
+    color: rgb(255 255 255);
+    background: rgb(130, 87, 230);
+    border: none;
+}
+.event h3{
+    margin-top: 25px;
+    font-size: 16px;
+    color: rgb(130, 87, 230);
+    text-decoration: none;
+}
+.event h1{
+    font-size: 25px;
+}
+.event ul{
+    list-style: none;
+    padding: 0;
+}
+.event li{
+    display: inline-flex;
+    align-items: center;
+}
+/*************** End Page Event **************/
+/*************** End Section Events **************/
+/*************** Page Dashboard **************/
+.dashboard-title-container{
+    margin-top: 100px;
+}
+.dashboard-title-container h1{
+    margin-bottom: 30px;
+    font-size: 23px;
+}
+.edit-btn{
+    padding: 4px 17px;
+    border: none;
+    border-radius: 8px;
+    background-color: blue;
+    color: #ffffff;
+    display: flex;
+}
+.edit-btn ion-icon {
+    color: #ffffff;
+    font-size: larger;
+}
+.img-preview{
+    width: -webkit-fill-available;
+    margin-top: 27px;
+}
+.delete-btn{
+    margin-right: -124px;
+    margin-left: 20px;
+    padding: 4px 17px;
+    border: none;
+    border-radius: 8px;
+    background-color: red;
+    color: #ffffff;
+    display: flex;
+}
+.delete-btn ion-icon {
+    color: #ffffff;
+    font-size: larger;
+}
+.botao-sair-evento{
+    margin-right: -47px;
+    /* margin-left: 20px; */
+    padding: 4px 17px;
+    border: none;
+    border-radius: 8px;
+    background-color: red;
+    color: #ffffff;
+    display: flex;
+}
+.botao-sair-evento ion-icon {
+    color: #ffffff;
+    font-size: larger;
+}
+.already-joined-msg{
+    background-color: violet;
+    margin: 0px 90px;
+    padding: 10px;
+    border-radius: 10px;
+}
+/*************** End Page Dashboard **************/
+/*************** Section Footer **************/
+.footer{
+    background: rgb(18, 18, 20);
+    padding: 10px 0;
+    width: 100%;
+    margin-top: 84px;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+}
+p {
+    margin-top: revert;
+    margin-bottom: revert;
+}
+/*************** End Section Footer **************/
